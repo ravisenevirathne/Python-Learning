@@ -41,6 +41,8 @@
 # user_input = input("Enter number of days and I will convert it to seconds : \n")
 # validate_and_execute()
 #################################################################################################
+""" Multi comment
+"""
 
 calculations_to_seconds = 24 * 60 * 60
 name_of_unit = "seconds"
@@ -67,8 +69,14 @@ def validate_and_execute():
 user_input = ""
 while user_input != "exit":
     user_input = input("Enter number of days as a comma seperated list and I will convert it to seconds : \n")
-    print(user_input.split(", "))  # showing the list
-    for num_of_days_element in user_input.split(", "):
+    list_of_days = user_input.split(", ")
+
+    print(list_of_days)  # showing the list
+    print(type(list_of_days))
+    print(set(list_of_days))  # showing the set (without duplicates)
+    print(type(set(list_of_days)))
+
+    for num_of_days_element in set(list_of_days):
         validate_and_execute()
 
 
