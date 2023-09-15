@@ -13,4 +13,4 @@ deadline_date = datetime.datetime.strptime(deadline, "%d.%m.%Y")
 today_date = datetime.datetime.today()
 time_till = deadline_date - today_date
 
-print(f"\nDear user! time remaining for your goal: {goal} is {time_till.days} days !")
+print(f"\nDear user! time remaining for your goal: {goal} is {time_till.days} days")
