@@ -1,6 +1,6 @@
 # Sets cannot access with the index, only accessible using a loop
 # Not in order and NO Duplicates
-my_set = {"January", "February", "March"}
+my_set = {"January", "February", "March", 100}
 for element in my_set:
     print(element)
 
