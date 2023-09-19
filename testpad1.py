@@ -8,7 +8,7 @@
 #     #print(array_num[i], end=' ')
 # print("\nMissing number in the said array (10-20): ")
 
-# rows = 5
+# rows = 10
 # for i in range(1, rows+1):
 #     # nested loop
 #     # to iterate from 1 to 10
